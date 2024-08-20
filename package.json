@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "vite": "vite --force",
     "dev": "npm run server:dev",
     "prod": "npm run lint && npm run build && npm run server:prod",
     "build": "vite build",
@@ -30,7 +31,7 @@
     "sirv": "^2.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.4.0",
-    "vike": "^0.4.184",
+    "vike": "^0.4.188-commit-373ae21",
     "vite": "^5.4.0"
   },
   "type": "module",
